@@ -17,7 +17,10 @@ const router = new VueRouter({
     path: '/about',
     component: About,
     name: "About Us Page"
-  }]
+  },{
+    path:'/blog',
+    component: Blog,
+    name: "latest Blog"}]
 })
 
 new Vue({
